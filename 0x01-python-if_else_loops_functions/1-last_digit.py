@@ -7,13 +7,11 @@ if number >= 0:
 else:
     remainder = number % -10
 
+print("Last digit of {} is {}".format(number, remainder), end='')
 
-print("Last digit of {} is {}".format(number, remainder, end=''))
-
-if remainer > 5:
+if remainder > 5:
     print(" and is greater than 5")
 elif remainder == 0:
     print(" and is 0")
 else:
     print(" and is less than 6 and not 0")
-
